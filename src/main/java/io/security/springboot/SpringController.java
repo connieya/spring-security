@@ -10,4 +10,8 @@ public class SpringController {
     public String index(){
         return "home";
     }
+    @GetMapping("loginPage")
+    public String loginPage(){
+        return "loginPage";
+    }
 }
